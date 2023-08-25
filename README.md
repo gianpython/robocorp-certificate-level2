@@ -1,20 +1,14 @@
-# Robocorp Certificate Level 2
+# Template: Robot Framework - Minimal
 
-Description
------------
-* Orders robots from RobotSpareBin Industries Inc.
-* Saves the order HTML receipt as a PDF file.
-* Saves the screenshot of the ordered robot.
-* Embeds the screenshot of the robot to the PDF receipt.
-* Creates ZIP archive of the receipts and the images.
-* Deletes unused .pdf and .png files if user confirms it.
+This is the simplest template to start from.
 
-How to use
-----------
-* Copy the URL to this public repo
-* Create account at: https://cloud.robocorp.com/
-* Create a new robot and link this public repo
-* Create a new assistant and link your new robot
-* Download and install the Robocorp Assistant: https://robocorp.com/docs/control-room/configuring-assistants/installation
-* Open the Robocorp Assistant and link your https://cloud.robocorp.com/ account with your Robocorp Assistant
-* Choose your assistant from the list and run it
+- Get started from a simple task template in `tasks.robot`.
+  - Uses [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics) syntax.
+- You can configure your robot `robot.yaml`.
+- You can configure dependencies in `conda.yaml`.
+
+## Learning materials
+
+- [Robocorp Developer Training Courses](https://robocorp.com/docs/courses)
+- [Documentation links on Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework)
+- [Example bots in Robocorp Portal](https://robocorp.com/portal)
