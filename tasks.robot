@@ -14,16 +14,8 @@ Library             RPA.FileSystem
 
 
 *** Variables ***
-# &{ASSETS}    &{EMPTY}
-# ${TEMP_DIR}=    temp
+
 ${site_url}     https://robotsparebinindustries.com/#/robot-order
-
-# ${img_folder}    ${CURDIR}${/}image_files
-# ${pdf_folder}    ${CURDIR}${/}pdf_files
-# ${output_folder}    ${CURDIR}${/}output
-
-# ${orders_file}    ${CURDIR}${/}orders.csv
-# ${zip_file}    ${output_folder}${/}pdf_archive.zip
 ${csv_url}      https://robotsparebinindustries.com/orders.csv
 
 
